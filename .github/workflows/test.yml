@@ -4,5 +4,5 @@ jobs:
   Test:
     runs-on: ubuntu-latest
     steps:
-      - run:echo "hello imooc"
-      - run:echo "${{github.event_name}}"
+      - run: echo "hello imooc"
+      - run: echo "${{github.event_name}}"
